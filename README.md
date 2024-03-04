@@ -9,7 +9,7 @@
 - When it comes to HTTP traffic, the source and destination IP addresses should be recorded in logs. We need Amber's IP address.
 ```index="botsv2" sourcetype="pan:traffic" amber```
 <p align="center"><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*pS3pqTYHSidwFNfTxDvNUA.png" height="40%" width="40%" /><p/></p> <br/>
-- After adding it to the search and changing source type to HTTP and to remove duplicate entries and one to list as a table, we will be using "dedup" and "table" keywords from the [Splunk Documentation - Search Reference](https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Metadata). Final query would be:
+- After adding it to the search and changing source type to HTTP and to remove duplicate entries and one to list as a table, we will be using "dedup" and "table" keywords from the [Splunk Documentation - Search Reference](https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Metadata) . Final query would be:
 
   ```index="botsv2" sourcetype="stream:HTTP" "10.0.2.101" | dedup site | table site```
 
