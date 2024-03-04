@@ -10,7 +10,11 @@
 ```index="botsv2" sourcetype="pan:traffic" amber```
 <p align="center"><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*pS3pqTYHSidwFNfTxDvNUA.png" height="40%" width="40%" /><p/></p> <br/>
 - After adding it to the search and changing source type to HTTP and to remove duplicate entries and one to list as a table, we will be using "dedup" and "table" keywords from the [Splunk Documentation - Search Reference](https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Metadata) . Final query would be:
-
   ```index="botsv2" sourcetype="stream:HTTP" "10.0.2.101" | dedup site | table site```
+<p align="center"><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*xdzUcxFxgoNi99AorCKYDg.png" height="40%" width="40%" /><p/></p> <br/>
+
+**1 — Amber Turing was hoping for Frothly to be acquired by a potential competitor, which fell through, but visited their website to find contact information for their executive team. What is the website domain that she visited?**
+```Answer:www.berkbeer.com```
+
 
 
