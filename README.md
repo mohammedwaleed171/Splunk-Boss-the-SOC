@@ -2,8 +2,19 @@
 - We will be using TryHackMe's Splunk 2 Room to complete Splunk's BOSS the SOC challenge.
   
 ## Data Set
+- The data included in this app was generated in August of 2017 by members of Splunk's Security Specialist team - Dave Herrald, Ryan Kovar, Steve Brant, Jim Apger, John Stoner, Ken Westin, David Veuve and James Brodsky. They stood up a few lab environments connected to the Internet. Within the environment they had a few Windows endpoints instrumented with the Splunk Universal Forwarder and Splunk Stream. The forwarders were configured with best practices for Windows endpoint monitoring, including a full Microsoft Sysmon deployment and best practices for Windows Event logging. The environment included a Palo Alto Networks next-generation firewall to capture traffic and provide web proxy services, and Suricata to provide network-based IDS.
+  **BOTSv2 Github:** https://github.com/splunk/botsv2 <br/>
+  <p align="center"><img src="https://assets.tryhackme.com/additional/splunk-overview/splunk-botsv2-2017.png" height="40%" width="40%" /><p/></p> <br/>
 - In this exercise, you assume the persona of Alice Bluebird, the analyst who successfully assisted Wayne Enterprises and was recommended to Grace Hoppy at Frothly (a beer company) to assist them with their recent issues.
 <p align="center"><img src="https://assets.tryhackme.com/additional/splunk-overview/splunk-botsv2-frothly.png" height="40%" width="40%" /><p/></p> <br/>
+
+#### What kinds of events do we have ? 
+- The SPL (Splunk Search Processing Language) command metadata can be used to search for the same kind of information that is found in the Data Summary, with the bonus of being able to search within a specific index, if desired. All time-values are returned in EPOCH time, so to make the output user readable, the eval command should be used to provide more human-friendly formatting.
+- In this example, we will search the botsv2 index and return a listing of all the source types that can be found as well as a count of events and the first time and last time seen.
+
+#### Resources: 
+- http://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Metadata
+- https://www.splunk.com/blog/2017/07/31/metadata-metalore.html
 
 ## Task 3
 
