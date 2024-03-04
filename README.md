@@ -1,7 +1,7 @@
 # Splunk | BOSS the SOC
 - We will be using TryHackMe's Splunk 2 Room to complete Splunk's BOSS the SOC challenge.
   
-## Data Set
+## BOTSv2 Data Set
 - The data included in this app was generated in August of 2017 by members of Splunk's Security Specialist team - Dave Herrald, Ryan Kovar, Steve Brant, Jim Apger, John Stoner, Ken Westin, David Veuve and James Brodsky. They stood up a few lab environments connected to the Internet. Within the environment they had a few Windows endpoints instrumented with the Splunk Universal Forwarder and Splunk Stream. The forwarders were configured with best practices for Windows endpoint monitoring, including a full Microsoft Sysmon deployment and best practices for Windows Event logging. The environment included a Palo Alto Networks next-generation firewall to capture traffic and provide web proxy services, and Suricata to provide network-based IDS.
   **BOTSv2 Github:** https://github.com/splunk/botsv2 <br/>
   <p align="center"><img src="https://assets.tryhackme.com/additional/splunk-overview/splunk-botsv2-2017.png" height="40%" width="40%" /><p/></p> <br/>
