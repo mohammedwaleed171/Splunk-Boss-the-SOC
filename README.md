@@ -463,5 +463,8 @@ This references one single php file (`process.php`) and since this event is from
 
 Answer: `process.php`
 
+### MITRE ATT&CK Techniques Used
+
+<p align="center"><img src="https://assets.tryhackme.com/additional/splunk-overview/splunk-mitre-attack.png" height="40%" width="40%" /><p/></p> <br/>
 
 
