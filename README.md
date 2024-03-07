@@ -465,6 +465,6 @@ Answer: `process.php`
 
 ### MITRE ATT&CK Techniques Used
 
-<p align="center"><img src="https://assets.tryhackme.com/additional/splunk-overview/splunk-mitre-attack.png" height="40%" width="40%" /><p/></p> <br/>
+<p align="center"><img src="https://assets.tryhackme.com/additional/splunk-overview/splunk-mitre-attack.png" height="60%" width="80%" /><p/></p> <br/>
 
 
